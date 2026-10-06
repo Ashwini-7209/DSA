@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+import java.util.PriorityQueue;
+ 
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
          PriorityQueue<ListNode> minHeap =
